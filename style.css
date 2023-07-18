@@ -1,5 +1,6 @@
 * {
     font-family: 'Work Sans';
+
 }
 
 
@@ -176,9 +177,11 @@ nav {
 .gamer-img {
     margin-left: 50px;
 }
-.games{
+
+.games {
     margin-bottom: 100px;
 }
+
 /* Games section styles */
 
 
@@ -252,14 +255,15 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.insta-img{
+
+.insta-img {
     position: relative;
     top: -279px;
     left: 797px;
 
 }
 
-.insta-container2{
+.insta-container2 {
     display: flex;
     width: 80%;
     margin: auto;
@@ -286,4 +290,52 @@ nav {
     text-align: left;
     font-size: 18px;
     width: 350px;
+}
+
+/* carrer Related Design */
+
+.carrers-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.careers {
+    background-color: #FF42A5;
+    color: #fff;
+
+}
+
+.carrer-desc {
+    width: 658px;
+    color: #FFF;
+    font-size: 18px;
+    margin-left: 44px;
+}
+
+.carrer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 45px;
+}
+
+.carrers-item {
+    margin-left: 150px;
+}
+
+.carres-list-container {
+    display: flex;
+}
+
+.list-style {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.list-style li{
+    list-style: none;
+    margin-bottom: 5px;
 }
