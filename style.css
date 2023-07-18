@@ -335,7 +335,57 @@ nav {
     font-weight: 600;
 
 }
-.list-style li{
+
+.list-style li {
     list-style: none;
     margin-bottom: 5px;
+}
+
+
+/* Image feature design */
+.features {
+    height: 40vh;
+    background-color: #FFF9FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-title-feature {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    gap: 5px;
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.features-desc {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.container-of-feature {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    align-items: center;
+}
+
+.container-of-feature div{
+    margin:  10px;
+}
+
+.container-of-feature1{
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    gap: 10px;
 }
