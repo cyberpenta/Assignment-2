@@ -269,6 +269,7 @@ nav {
     left: 797px;
 
 }
+
 .insta-img2 {
     position: relative;
     top: -221px;
@@ -497,10 +498,13 @@ footer {
 
 @media screen and (max-width:576px) {
     body {
-        width: 100%;
+        width: 100vw;
         margin: auto;
-        overflow-x: hidden; /* Prevent horizontal scroll */
+        padding: auto;
+        overflow-x: hidden;
+        /* Prevent horizontal scroll */
     }
+
     nav {
         height: 40vh;
         background: #fff;
@@ -630,12 +634,11 @@ footer {
 
     .insta-img2 {
         position: relative;
-        top: -84px;
-        left: 82px;
+        top: -103px;
+        left: 70px;
         display: flex;
-        width: 100%;
-        max-width: 108px;
-        margin: 0 auto;
+        width: 30%;
+        margin: auto;
     }
 
 
@@ -663,6 +666,9 @@ footer {
 
     .carrers-item {
         margin-left: 0px;
+        TEXT-ALIGN: LEFT;
+        PADDING: 66px;
+
     }
 
     .carrer-desc {
@@ -670,14 +676,20 @@ footer {
         color: #FFF;
         font-size: 15px;
         margin-left: 0px;
-        text-align: center;
+
+    }
+
+    .carres-list-container {
+        text-align: left;
+        margin-left: -40px;
+        padding: 10px;
     }
 
     .carrer-title {
         color: #FFF;
         font-size: 48px;
         font-weight: 700;
-        margin-left: 45px;
+        margin: auto;
         width: 100%;
     }
 
@@ -697,7 +709,6 @@ footer {
     .carrer-img {
         width: 100%;
         margin: auto;
-        padding-left: 95px;
     }
 
     .carrers-item2 {
@@ -712,6 +723,8 @@ footer {
         align-items: center;
         justify-content: center;
         margin-left: -56px;
+        grid-gap: -24px 36px;
+
     }
 
     .img-title-feature {
@@ -727,51 +740,62 @@ footer {
 
 
     }
-    .features-icon{
+
+    .features-icon {
         width: 100%;
     }
-    .feature-inside{
+
+    .feature-inside {
         width: 100%;
         margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 30vh;
     }
+
     .foot-container {
         width: 100%;
         text-align: center;
-    
+
     }
+
     .footer-title {
         width: 100%;
         padding-right: 10px;
-    
+
     }
+
     .footer-img {
         height: 2.1rem;
         width: 4.2rem;
         padding-top: 26px;
         padding-left: 80px;
     }
-    .list-footer{
+
+    .list-footer {
         flex-wrap: wrap;
         width: 100%;
     }
-    .terms{
+
+    .terms {
         flex-wrap: wrap;
         width: 100%;
         align-items: center;
     }
-    .footer-last-title{
+
+    .footer-last-title {
         width: 100%;
         margin: auto;
     }
-    .footer-icons{
+
+    .footer-icons {
         width: 100%;
         flex-wrap: wrap;
     }
-    .insta{
+
+    .insta {
         width: 100%;
     }
 }
