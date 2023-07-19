@@ -508,7 +508,7 @@ footer {
     }
 
     nav {
-        height: 40vh;
+        height: 60vh;
         background: #fff;
         margin-bottom: -25px;
 
@@ -520,6 +520,8 @@ footer {
 
     .menus {
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
 
     .header-container {
@@ -639,7 +641,7 @@ footer {
         top: -103px;
         left: 70px;
         display: flex;
-        width: 30%;
+        width: 30vw;
         margin: auto;
     }
 
@@ -724,8 +726,8 @@ footer {
         grid-template-columns: repeat(3, 0.2fr);
         align-items: center;
         justify-content: center;
-        margin-left: -56px;
-        grid-gap: -24px 36px;
+        padding-right: 50px;
+        grid-gap: 0px 10px;
 
     }
 
@@ -735,7 +737,9 @@ footer {
         gap: 2px;
         padding: 8px;
     }
-
+    .features {
+        height: 80vh;
+    }
     .features-desc {
         width: 100%;
         font-size: 15px;
