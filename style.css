@@ -61,7 +61,11 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
     background-attachment: #FDF6FC;
+    background-position: left;
+    padding-bottom: 10px;
 }
 
 .img-header {
@@ -131,7 +135,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #FFF9FC;
-    height: 50vh;
+    height: 80vh;
 }
 
 .game-title {
@@ -529,7 +533,7 @@ footer {
     }
 
     .img-header {
-        width: 100%;
+        width: 100vw;
     }
 
     .gamer-container {
@@ -538,7 +542,7 @@ footer {
     }
 
     .gamer-img {
-        width: 100%;
+        width: 100vw;
         margin-left: 0px;
     }
 
@@ -548,7 +552,7 @@ footer {
     }
 
     .game-desc {
-        width: 100%;
+        width: 100vw;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -557,7 +561,7 @@ footer {
         text-align: center;
         margin-bottom: -20px;
         font-size: 1.5rem;
-        width: 100%;
+        width: 100vw;
     }
 
     .game-title-2 {
@@ -571,7 +575,7 @@ footer {
         align-items: center;
         gap: 15px;
         margin-top: 30px;
-        width: 100%;
+        width: 100vw;
         justify-content: center;
     }
 
@@ -584,7 +588,7 @@ footer {
 
     .games-item2 {
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
+        width: 100vw;
         margin: auto;
     }
 
@@ -598,7 +602,7 @@ footer {
     .insta-container2 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
         margin: auto;
         justify-content: center;
         align-items: center;
@@ -606,7 +610,7 @@ footer {
     }
 
     .insta-img-banner {
-        width: 60%;
+        width: 60vw;
         margin: auto;
         align-items: center;
         display: flex;
@@ -623,7 +627,7 @@ footer {
     .insta-desc1 {
         text-align: center;
         font-size: 18px;
-        width: 100%;
+        width: 100vw;
     }
 
     .insta-img {
@@ -631,7 +635,7 @@ footer {
         top: -103px;
         left: -100px;
         display: flex;
-        width: 30%;
+        width: 30vw;
         margin: auto;
 
     }
@@ -649,7 +653,7 @@ footer {
     .insta-container2 {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
+        width: 100vw;
         margin: auto;
         justify-content: center;
         align-items: center;
@@ -663,7 +667,7 @@ footer {
     }
 
     .careers {
-        width: 100%;
+        width: 100vw;
         margin: auto;
 
     }
