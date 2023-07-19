@@ -249,6 +249,13 @@ nav {
     width: 350px;
 }
 
+.insta-desc1 {
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    width: 495px;
+}
+
 #insta-title-2 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -260,6 +267,13 @@ nav {
     position: relative;
     top: -279px;
     left: 797px;
+
+}
+.insta-img2 {
+    position: relative;
+    top: -221px;
+    left: 717px;
+    display: flex;
 
 }
 
@@ -372,9 +386,10 @@ nav {
 }
 
 .container-of-feature {
-    display: grid;
-    grid-template-columns: repeat(5, 0.5fr);
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .container-of-feature div {
@@ -474,4 +489,289 @@ footer {
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 40px;
+}
+
+
+
+/* Responsive design */
+
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+    nav {
+        height: 40vh;
+        background: #fff;
+        margin-bottom: -25px;
+
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .menus {
+        flex-direction: column;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+    }
+
+    .img-header {
+        width: 100%;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .gamer-img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .game-items2 {
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .game-desc {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .game-purpose {
+        text-align: center;
+        margin-bottom: -20px;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .game-title-2 {
+        font-size: 22px;
+        margin-top: 30px;
+
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-items1 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .games-item2 {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    .gamers-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instant-container,
+    .insta-container2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .insta-img-banner {
+        width: 60%;
+        margin: auto;
+        align-items: center;
+        display: flex;
+    }
+
+    .insta-title,
+    .insta-title1 {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .insta-desc,
+    .insta-desc1 {
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .insta-img {
+        position: relative;
+        top: -103px;
+        left: -100px;
+        display: flex;
+        width: 30%;
+        margin: auto;
+
+    }
+
+    .insta-img2 {
+        position: relative;
+        top: -84px;
+        left: 82px;
+        display: flex;
+        width: 100%;
+        max-width: 108px;
+        margin: 0 auto;
+    }
+
+
+    .insta-container2 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .carrers-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .careers {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .carrers-item {
+        margin-left: 0px;
+    }
+
+    .carrer-desc {
+        width: 100%;
+        color: #FFF;
+        font-size: 15px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .carrer-title {
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 700;
+        margin-left: 45px;
+        width: 100%;
+    }
+
+    .list-style li {
+        list-style: none;
+        margin-bottom: 5px;
+        width: 100%;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .list-style {
+        width: 100%;
+        margin: auto;
+    }
+
+    .carrer-img {
+        width: 100%;
+        margin: auto;
+        padding-left: 95px;
+    }
+
+    .carrers-item2 {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .container-of-feature {
+        display: grid;
+        grid-template-columns: repeat(3, 0.2fr);
+        align-items: center;
+        justify-content: center;
+        margin-left: -56px;
+    }
+
+    .img-title-feature {
+        width: 100%;
+        margin: auto;
+        gap: 2px;
+        padding: 8px;
+    }
+
+    .features-desc {
+        width: 100%;
+        font-size: 15px;
+
+
+    }
+    .features-icon{
+        width: 100%;
+    }
+    .feature-inside{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .foot-container {
+        width: 100%;
+        text-align: center;
+    
+    }
+    .footer-title {
+        width: 100%;
+        padding-right: 10px;
+    
+    }
+    .footer-img {
+        height: 2.1rem;
+        width: 4.2rem;
+        padding-top: 26px;
+        padding-left: 80px;
+    }
+    .list-footer{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .terms{
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+    .footer-last-title{
+        width: 100%;
+        margin: auto;
+    }
+    .footer-icons{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .insta{
+        width: 100%;
+    }
 }
