@@ -405,7 +405,9 @@ nav {
     margin-left: 200px;
     gap: 10px;
 }
-
+.img-title-feature:hover{
+    border: 1px solid #FF42A5;
+}
 
 /* Footer design */
 footer {
